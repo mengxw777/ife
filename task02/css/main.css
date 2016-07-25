@@ -1,0 +1,214 @@
+/* page css */
+
+body {
+    background: #dedede;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+header.top-bar {
+    height: 60px;
+    background: #333;
+}
+
+header.top-bar > a {
+    overflow: hidden;
+}
+
+header.top-bar nav {
+    display: inline;
+}
+
+header.top-bar h1 {
+    display: inline-block;
+    text-indent: -999px;
+}
+
+header.top-bar img {
+    width: 200px;
+    height: 60px;
+}
+
+header.top-bar nav ul {
+    float: right;
+    list-style: none;
+}
+
+header.top-bar nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+header.top-bar nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header.top-bar nav ul li:last-child a {
+    color: #ddd;
+}
+
+.container section,
+.container aside {
+    margin: 15px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 10px 10px #888888;
+}
+
+.container section h3,
+.container aside h3 {
+    color: #888;
+}
+
+.container section span {
+    font-size: 12px;
+    color: #777;
+}
+
+.container section p {
+    text-indent: 40px;
+    color: #000;
+    line-height: 25px;
+}
+
+.container section > img {
+    margin: 10px 0;
+}
+
+.container section:nth-child(2) ul {
+    list-style: none;
+}
+
+.container section:nth-child(2) ul li {
+    line-height: 30px;
+}
+
+.container section:nth-child(3) figure {
+    width: 120px;
+    height: 140px;
+    border: 1px solid #ddd;
+    margin: 10px 0 10px 50px;
+}
+
+.container section:nth-child(3) figure figcaption {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container section:nth-child(3) figure img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.container section:nth-child(4) ol li {
+    line-height: 25px;
+}
+
+.container section:nth-child(4) span {
+    font-size: 16px;
+    color: #000;
+}
+
+.container section:nth-child(4) table {
+    width: 100%;
+    border: thin solid #ccc;
+    border-collapse: collapse;
+}
+
+.container section:nth-child(4) table th,
+.container section:nth-child(4) table td {
+    border: thin solid #ddd;
+    padding-left: 5px;
+}
+
+.container section:nth-child(4) table thead {
+    background: #000;
+    height: 20px;
+}
+
+.container section:nth-child(4) table th {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.container section:nth-child(4) table td {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.container section:nth-child(4) table tfoot {
+    background: #ddd;
+}
+
+.container section:nth-child(4) table tfoot td {
+    font-weight: bold;
+}
+
+.container .sidebar .sidebar_title {
+    height: 30px;
+    border-left: 5px solid #ddd;
+}
+
+.container .sidebar h2 {
+    font-size: 18px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.container .sidebar form > div {
+    margin: 10px;
+}
+
+.container .sidebar form div .form_block {
+    display: inline-block;
+}
+
+.container .sidebar form div label {
+    font-size: 14px;
+    width: 35%;
+    text-align: right;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.container .sidebar form div p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.container .sidebar form div textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.container .sidebar button {
+    width: 100%;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: #000;
+}
+
+footer aside {
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    margin: 0 auto;
+    line-height: 60px;
+}
